@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Main Card Body -->
+    <path
+        android:pathData="M35,27 L73,27 A12,12 0 0 1 85,39 L85,73 A12,12 0 0 1 73,85 L35,85 A12,12 0 0 1 23,73 L23,39 A12,12 0 0 1 35,27 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="23"
+                android:startY="27"
+                android:endX="85"
+                android:endY="85"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#4F46E5" />
+                <item android:offset="1.0" android:color="#06B6D4" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Card Inner Glow / Depth Layer -->
+    <path
+        android:pathData="M37,31 L71,31 A10,10 0 0 1 81,41 L81,71 A10,10 0 0 1 71,81 L37,81 A10,10 0 0 1 27,71 L27,41 A10,10 0 0 1 37,31 Z"
+        android:fillColor="#151E3F" />
+    <!-- Mini Task Flow Indicators -->
+    <path
+        android:pathData="M36,41 L50,41"
+        android:strokeColor="#818CF8"
+        android:strokeWidth="3"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M36,49 L46,49"
+        android:strokeColor="#64748B"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round" />
+    <!-- Big Vibrant Checkmark -->
+    <path
+        android:pathData="M38,62 L48,72 L72,46"
+        android:strokeWidth="6"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="38"
+                android:startY="72"
+                android:endX="72"
+                android:endY="46"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#38BDF8" />
+                <item android:offset="1.0" android:color="#A7F3D0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+</vector>
